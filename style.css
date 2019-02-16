@@ -1,0 +1,96 @@
+/*header section for index.html page*/
+header{
+display:block;
+width:20%;
+background-color: #335aff;
+color:#fff;
+margin:1% auto;
+padding:2%;
+text-align: center;
+font size:50px;
+}
+a img{
+  display: block;
+  width:20px;
+  height:auto;
+  margin:0 3px 0 auto;
+  padding:2%;
+}
+.main{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border:2px solid #ddd;
+}
+.ca{
+  border:2px solid #ddd;
+  width:20%;
+  margin:2%;
+  padding:2%;
+}
+.s1{
+width:20%;
+border:3px solid #ddd;
+margin:2%;
+padding:2%;
+}
+select,input{
+  width:20%;
+  margin:2%;
+  padding:2%;
+}
+.parent{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  border:2px solid #ddd;
+  }
+  .child{
+    width:20px;
+    border:2px solid #ddd;
+    padding:1%;
+    margin:1%;
+  }
+  img{
+    /* display:block; */
+    width:40%;
+    margin: 1%;
+    /* margin-left:auto;
+    margin-right:auto; */
+    padding:1%;
+  }
+h1,a,h4{
+  text-align:center;
+}
+/*resume.html*/
+.main{
+  background: #F057ED;
+  width: 95%;
+  display:flex;
+  flex-direction: row;
+  border:2px solid #ddd;
+}
+.left{
+  background: #D0EB55;
+  text-align: center;
+  width:25%;
+  margin:2%;
+  padding: 2%;
+  border:2px solid #ddd;
+}
+.right{
+  background: #2EF3BB;
+  width:55%;
+  margin:2%;
+  padding: 2%;
+  border:2px solid #ddd;
+}
+p{
+  /*text-align:center;*/
+  font-size:20px;
+}
+
+li{
+  font-size: 25px;
+}
